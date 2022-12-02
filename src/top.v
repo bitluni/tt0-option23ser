@@ -2,7 +2,7 @@ module option23ser (
     input wire [7:0] io_in,
     output reg [7:0] io_out
 );
-parameter WORD_COUNT = 28;
+parameter WORD_COUNT = 30;
 
 wire clk = io_in[0];
 wire reset = io_in[1];
